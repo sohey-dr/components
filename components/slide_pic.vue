@@ -1,40 +1,41 @@
 <template>
+  # 割とスマホ向けなデザインになってる。
   <div>
     <swiper class="swiper" :options="swiperOption">
       <swiper-slide>
         <img
-          src="/images/6043.jpg"
+          src="/images/.jpg"
           alt="1ヶ月目の写真"
           >
       </swiper-slide>
 
       <swiper-slide>
         <img
-          src="/images/IMG_7024.JPG"
+          src="/images/.JPG"
           alt="2ヶ月目の写真">
       </swiper-slide>
 
       <swiper-slide>
         <img
-          src="/images/IMG_4060.jpg"
+          src="/images/.jpg"
           alt="3ヶ月目の写真">
       </swiper-slide>
 
       <swiper-slide>
         <img
-          src="/images/DSC03702.JPG"
+          src="/images/.JPG"
           alt="4ヶ月目の写真">
       </swiper-slide>
 
       <swiper-slide>
         <img
-          src="/images/IMG_5483.JPG"
+          src="/images/.JPG"
           alt="5ヶ月目の写真">
       </swiper-slide>
 
       <swiper-slide>
         <img
-          src="/images/2021-01-16.png"
+          src="/images/.png"
           alt="6ヶ月目の写真">
       </swiper-slide>
       <div class="swiper-button-prev" slot="button-prev"></div>
