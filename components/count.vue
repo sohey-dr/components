@@ -5,7 +5,6 @@
       <button class="btn btn-primary" v-show="show === false" v-on:click="countUp">見たい！</button>
       <button class="btn btn-danger" v-show="show" v-on:click="countUp">見たくない！</button>
     </div>
-    <p v-show="show">時間以下も出すなんて重い！！！</p>
   </div>
 </template>
 
@@ -15,7 +14,6 @@ let id;
 export default {
   data() {
     return {
-        time: '00:00',
         show: false
     }
   },
