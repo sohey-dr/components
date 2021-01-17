@@ -14,6 +14,7 @@ let id;
 export default {
   data() {
     return {
+        time: "",
         show: false
     }
   },
