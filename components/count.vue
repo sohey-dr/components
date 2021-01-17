@@ -21,6 +21,7 @@ export default {
   methods: {
     countUp: function() {
       let vm = this;
+      // 設定したい日時(日付だけも平気)
       let ceremony = new Date("2020/7/18 20:00"); 
       let count;
       
@@ -31,10 +32,6 @@ export default {
           let min = Math.floor(countup / 1000/ 60) % 60;
           let sec = Math.floor(countup / 1000) % 60;
 
-          days = ('0'  + days).slice(-3);
-          hours = ('0'  + hours).slice(-2);
-          min = ('0'  + min).slice(-2);
-          sec = ('0'  + sec).slice(-2);
           vm.time = `${days}日と${hours}時間${min}分${sec}秒`;
           id = setTimeout(count, 10);
       }
