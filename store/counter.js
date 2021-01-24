@@ -4,7 +4,7 @@ export const state = () => ({
 
 export const mutations = {
   addNumber: function(state) {
-    state.num += 1
+    state.num ++
   },
   resetNumber: function(state) {
     state.num = 0
