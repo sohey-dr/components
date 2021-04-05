@@ -24,6 +24,7 @@ export default {
 			cities: ""
 		}
 	},
+	// asyncDataだからpages
 	async asyncData({route, app, error}) {
 		try {
 		    const item = await app.$axios.$get(`https://api.openweathermap.org/data/2.5/weather?q=${route.params.name},jp&units=metric&lang=ja&appid=${process.env.WEATHER_API_KEY}`)
